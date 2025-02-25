@@ -93,3 +93,40 @@ export default {
 	},
 };
 </script>
+
+<style scoped>
+#room-setup {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.view-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.stripe.game-code {
+	padding: 10px 0;
+}
+
+.stripe.users {
+	min-height: 60vh;
+}
+
+.users {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.users li {
+	padding: 4px 0;
+	line-height: 1.2;
+}
+
+.stripe.actions {
+	padding: 10px 0;
+}
+</style>
